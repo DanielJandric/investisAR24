@@ -26,7 +26,7 @@ export default defineConfig({
     minify: 'terser',
     target: 'es2015'
   },
-  base: './',
+  base: '/',
   server: {
     host: '0.0.0.0',
     port: 5173
