@@ -1,0 +1,184 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Investis Group Annual Report 2024",
+      "subtitle": "Real Estate Group",
+      "description": "Strong results in an eventful year – successful expansion of the property portfolio",
+      "backgroundImage": "001.webp",
+      "type": "hero"
+    },
+    {
+      "id": "key-highlights",
+      "title": "Key Highlights 2024",
+      "description": "Strategic pivot by divesting its Service segment – further expansion of the property portfolio",
+      "type": "highlights",
+      "items": [
+        {
+          "title": "Portfolio Value",
+          "value": "CHF 1,995 million",
+          "description": "Excellent EBITDA of CHF 48.9 million"
+        },
+        {
+          "title": "Residential Share",
+          "value": "81%",
+          "description": "197 buildings and 2,976 residential units"
+        },
+        {
+          "title": "Rental Growth",
+          "value": "+3.4%",
+          "description": "Outstanding like-for-like rental growth"
+        },
+        {
+          "title": "Revaluation Gains",
+          "value": "CHF 105 million",
+          "description": "Due to lower interest rates and high quality portfolio"
+        },
+        {
+          "title": "Net Profit",
+          "value": "CHF 246.5 million",
+          "description": "Net profit excluding revaluation effect of CHF 156.5 million"
+        },
+        {
+          "title": "LTV Ratio",
+          "value": "27.6%",
+          "description": "Conservative loan-to-value ratio"
+        }
+      ]
+    },
+    {
+      "id": "ceo-statement",
+      "title": "CEO Statement",
+      "type": "statement",
+      "author": "Stéphane Bonvin",
+      "position": "CEO and Member of the Board of Directors",
+      "quote": "It is a pleasure to reflect on a successful financial year, during which we strategically shifted our focus to expanding our real estate portfolio and profitably sold our entire Services business. Our well-timed strategic decision to sell part of our portfolio in 2022 and buy comparable properties at significantly lower prices in 2024, has created additional value for our shareholders.",
+      "image": "011.webp"
+    },
+    {
+      "id": "financial-performance",
+      "title": "Financial Performance",
+      "type": "financial",
+      "description": "Comprehensive overview of financial metrics and performance indicators",
+      "charts": [
+        {
+          "id": "revenue-chart",
+          "title": "Revenue Development",
+          "type": "line",
+          "dataKey": "revenue"
+        },
+        {
+          "id": "portfolio-value-chart",
+          "title": "Property Portfolio Value",
+          "type": "bar",
+          "dataKey": "portfolioValue"
+        },
+        {
+          "id": "share-performance-chart",
+          "title": "Share Price Performance",
+          "type": "line",
+          "dataKey": "sharePerformance"
+        }
+      ]
+    },
+    {
+      "id": "property-portfolio",
+      "title": "Property Portfolio",
+      "subtitle": "94% of the portfolio is located in the Lake Geneva region",
+      "type": "portfolio",
+      "description": "The portfolio is valued at CHF 1,995 million at 31 December 2024 and consists mainly of 2,976 middle-income residential units in 197 buildings.",
+      "image": "019.webp",
+      "metrics": [
+        {
+          "label": "Total Buildings",
+          "value": 197,
+          "change": "+45 from 2023"
+        },
+        {
+          "label": "Residential Units",
+          "value": 2976,
+          "change": "+499 from 2023"
+        },
+        {
+          "label": "Vacancy Rate",
+          "value": "1.9%",
+          "change": "+1.0% from 2023"
+        },
+        {
+          "label": "Like-for-like Growth",
+          "value": "3.4%",
+          "change": "+0.3% from 2023"
+        }
+      ]
+    },
+    {
+      "id": "sustainability",
+      "title": "Sustainability",
+      "subtitle": "On a path to net zero",
+      "type": "sustainability",
+      "description": "Investis' commitment to sustainability and social responsibility reflects its strategic integration of environmental, social, and governance (ESG) principles into its operations.",
+      "image": "015.webp",
+      "pillars": [
+        {
+          "title": "Environmental sustainability",
+          "description": "Investis sets clear priorities to reduce the carbon footprint of its property portfolio"
+        },
+        {
+          "title": "Social responsibility",
+          "description": "Investis ensures its business decisions contribute positively to society"
+        },
+        {
+          "title": "Governance and ethical practices",
+          "description": "Investis adheres to governance principles that prioritise transparency and ethical conduct"
+        }
+      ]
+    },
+    {
+      "id": "market-overview",
+      "title": "Market Overview",
+      "type": "market",
+      "description": "The residential property market in the Lake Geneva region in 2024 was driven by economic, demographic and regulatory factors.",
+      "image": "018.webp",
+      "keyPoints": [
+        "Demand for quality housing remained stable due to Geneva's international appeal",
+        "Limited supply under pressure due to scarce building land and strict regulations",
+        "Strong demand for mid-range rental properties, especially 1-3 room apartments",
+        "Young professionals, students and small households drive demand for compact housing"
+      ]
+    },
+    {
+      "id": "financial-statements",
+      "title": "Financial Statements",
+      "type": "statements",
+      "description": "Detailed consolidated financial statements including income statement, balance sheet, and cash flow statement",
+      "statements": [
+        {
+          "title": "Consolidated Income Statement",
+          "image": "097.webp",
+          "dataKey": "incomeStatement"
+        },
+        {
+          "title": "Consolidated Balance Sheet",
+          "image": "098.webp",
+          "dataKey": "balanceSheet"
+        },
+        {
+          "title": "Consolidated Cash Flow Statement",
+          "image": "099.webp",
+          "dataKey": "cashFlow"
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    { "id": "hero", "label": "Home", "icon": "home" },
+    { "id": "key-highlights", "label": "Highlights", "icon": "star" },
+    { "id": "financial-performance", "label": "Financials", "icon": "chart" },
+    { "id": "property-portfolio", "label": "Portfolio", "icon": "building" },
+    { "id": "sustainability", "label": "Sustainability", "icon": "leaf" },
+    { "id": "market-overview", "label": "Market", "icon": "globe" },
+    { "id": "financial-statements", "label": "Statements", "icon": "document" }
+  ]
+}
+
+
